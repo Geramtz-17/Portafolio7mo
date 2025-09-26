@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F6E879"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="60sp"
+        android:background="#C88BD5"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginBottom="30sp"
+        android:background="#CF88DE"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/botoncito1"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/botoncito2"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:text="ACCESO CORRECTO"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/screen1"
+            android:layout_width="494dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="70sp"
+            android:layout_marginBottom="30sp"
+            android:text="ACCESO INCORRECTO"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="35sp" />
+    </LinearLayout>
+</LinearLayout>
